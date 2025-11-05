@@ -1,6 +1,6 @@
 # GitHub_guide
 
-To host a website on GitHub using GitHub Pages, follow these steps:
+# Hosting a website on GitHub using GitHub Pages:
 
 ```html
 • Create a New Repository: 
