@@ -61,6 +61,71 @@ Your website is now live and accessible via the provided URL. You can also confi
 
 ---
 
+# Host your own quote API on GitHub (free) and use the same image style
+
+You will create a Fork of the original project → replace its quotes with your 2 quotes → deploy → then use your custom URL.
+
+
+✅ Step-by-step — Only 2 minutes
+
+Step 1 — Fork the repository
+
+Go to:
+
+👉 https://github.com/PiyushSuthar/github-readme-quotes
+
+Click Fork.
+
+
+Step 2 — Find the quotes file
+
+In your fork, open:
+
+src/quotes.json
+
+Replace everything with ONLY your 2 quotes:
+
+[
+  {
+    "text": "The quieter you become, the more you can hear.",
+    "author": "Unknown"
+  },
+  {
+    "text": "Strength grows in the moments when you think you can’t go on.",
+    "author": "Unknown"
+  }
+]
+
+Commit changes.
+
+
+Step 3 — Deploy using Vercel
+
+Go to:
+
+👉 https://vercel.com/new
+
+Select your forked repository
+→ Deploy.
+
+Vercel will give you a custom URL like:
+
+https://your-app-name.vercel.app
+
+
+Step 4 — Use your custom quote generator in your README
+
+Replace the original with your Vercel URL:
+
+![Quote](https://your-app-name.vercel.app/api?type=horizontal&theme=radical&border=true)
+
+Now it will show only your two quotes, rotating forever.
+
+
+🎉 Done!
+
+Your GitHub README will now display your own 2 quotes exactly like the original generator — same style, same animation, same features.
+
 # Releasing Versions
 
 ```
